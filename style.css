@@ -1,0 +1,34 @@
+* {
+  padding: 8px;
+  margin: 0;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.link {
+  padding: 10px;
+  padding-left: 300px;
+  margin-bottom: 200px;
+}
+
+.link-lasagna {
+  padding: 10px;
+  margin: 30px;
+}
+
+.link-chicken {
+  padding: 10px;
+  margin: 30px;
+}
+
+.link-cookies {
+  padding: 10px;
+  margin: 30px;
+}
