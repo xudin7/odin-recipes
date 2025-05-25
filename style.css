@@ -1,34 +1,61 @@
-* {
-  padding: 8px;
+body {
+  padding: 0;
   margin: 0;
-  background-color: white;
+  box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
-  padding-bottom: 30px;
+  width: 980px; /* width:980px; and margin:0 auto; cheatcode to align in the center of the webpage */
+  margin: 0 auto;
+  padding: 15px;
+  border: 5px solid lightgrey;
   text-align: center;
-  background-color: white;
-  color: black;
+  margin-bottom: 100px;
+}
+
+.para {
+  width: 980px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px transparent gray;
+}
+
+h3 {
+  width: 980px;
+  margin: 0 auto;
 }
 
 .link {
-  padding: 10px;
-  padding-left: 300px;
-  margin-bottom: 200px;
+  width: 980px;
+  margin: 0 auto;
 }
 
 .link-lasagna {
   padding: 10px;
-  margin: 30px;
-}
-
-.link-chicken {
-  padding: 10px;
-  margin: 30px;
 }
 
 .link-cookies {
   padding: 10px;
-  margin: 30px;
+}
+
+.link-chicken{
+  padding: 10px;
+}
+
+.border {
+  width: 980px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 10px solid gray;
+}
+
+.link a{
+  text-decoration: none; /* Remove underline from the link */
+  color: blue;
+}
+
+a:hover{
+text-decoration: underline; /* Underline comes when hovering over the link */
+color: lightskyblue;
 }
